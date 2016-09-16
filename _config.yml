@@ -52,16 +52,25 @@ sidebar:
             url: /#search
             icon: search
             # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
+            #class: open-algolia-search
+            class: st-search-show-outputs
         about:
             title: global.about
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        mail:
+            title: global.mail
+            url: mailto:joychendao@icloud.com
+            icon: envelope-o
+        github:
+            title: global.github
+            url: https://github.com/joy-chen
+            icon: github
+        rss:
+            title: global.rss
+            url: /atom.xml
+            icon: rss
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -82,17 +91,7 @@ sidebar:
         #     title: global.linkedin
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
-
-
+        
 # Header configuration
 # The link at the right of the header is customizable
 # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.
@@ -102,23 +101,28 @@ sidebar:
 #     url: /#search
 #     icon: search
 #     class: open-algolia-search
+#header:
+#    right_link:
+#        url: /#about
+#        icon:
+#        class:
+
 header:
     right_link:
-        url: /#about
-        icon:
-        class:
-
+        url: /#search
+        icon: search
+        class: st-search-show-outputs
 
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: joychendao@icloud.com
+    location: China-Guangdong-Shenzhen
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: https://github.com/joy-chen/joy-chen.github.io/blob/master/pic/head.jpg?raw=true
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
@@ -142,7 +146,7 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
@@ -174,14 +178,20 @@ archive_pagination: true
 category_pagination: true
 tag_pagination: true
 
-
+# for joy modify
+post_asset_folder: true
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+swiftype_install_key: P6KKfD8mhR6XxzkqXTza
 # Integrated services
 # You can't use Disqus and Duoshuo together
 # then fill the right shortname
 # Your Disqus shortname
 disqus_shortname:
 # Your Duoshuo shortname
-duoshuo_shortname:
+duoshuo_shortname: joyflyaway
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
