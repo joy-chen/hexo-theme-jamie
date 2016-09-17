@@ -1,13 +1,13 @@
 <div id="share-options-bar" class="share-options-bar" data-behavior="<%= sidebarBehavior %>">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="<%= 'https://plus.google.com/share?url=' + post.permalink %>">
-                <i class="fa fa-google-plus"></i><span><%= __('global.share_on_google_plus') %></span>
+            <a class="share-option-btn" target="new" href="<%= 'http://www.jiathis.com/send/?webid=tsina&appkey=&uid=2113868&url=' + post.permalink + '&title=' + post.title %>">
+                <i class="fa fa-weibo"></i><span><%= __('global.share_on_weibo') %></span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="<%= 'https://www.facebook.com/sharer/sharer.php?u=' + post.permalink %>">
-                <i class="fa fa-facebook-official"></i><span><%= __('global.share_on_facebook') %></span>
+            <a class="share-option-btn" target="new" href="<%= 'http://www.jiathis.com/send/?webid=weixin&appkey=&uid=2113868&url=' + post.permalink + '&title=' + post.title %>">
+                <i class="fa fa-weixin"></i><span><%= __('global.share_on_weixin') %></span>
             </a>
         </li>
         <li class="share-option">
