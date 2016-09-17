@@ -192,6 +192,7 @@ swiftype_install_key: P6KKfD8mhR6XxzkqXTza
 disqus_shortname:
 # Your Duoshuo shortname
 duoshuo_shortname: joyflyaway
+duoshuo_share: true
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
