@@ -3,6 +3,8 @@ date_format: "MMM DD, YYYY"
 
 global:
     home: "Home"
+    technology: "Technology"
+    life: "Life"
     categories: "Categories"
     category: "Category"
     tags: "Tags"

@@ -35,6 +35,18 @@ sidebar:
             title: global.home
             url: /
             icon: home
+        tech:
+            title: global.technology
+            url: /technology
+            icon: leanpub
+        life:
+            title: global.life
+            url: /life
+            icon: heart
+        daily:
+            title: global.daily
+            url: /daily
+            icon: inbox
         categories:
             title: global.categories
             url: /all-categories
@@ -58,6 +70,7 @@ sidebar:
             title: global.about
             url: /#about
             icon: question
+    empty:
     author_links:
         mail:
             title: global.mail
@@ -117,7 +130,7 @@ header:
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
     email: joychendao@icloud.com
-    location: China-Guangdong-Shenzhen
+    location: 深圳 
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url

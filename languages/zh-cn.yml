@@ -3,6 +3,9 @@ date_format: "MMM DD, YYYY"
 
 global:
     home: "首页"
+    technology: "技术"
+    life: "生活"
+    daily: "日记"
     categories: "分类"
     category: "分类"
     tags: "标签"
@@ -58,6 +61,6 @@ post:
 
 author:
     # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: ""
+    bio: "现就职乐视，从事手机系统开发工作<br>[个人简历](/about)"
     # 你的工作简介
-    job: ""
+    job: "Android全栈工程师"
